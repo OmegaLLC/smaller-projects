@@ -4,6 +4,7 @@ import getopt
 from PIL import Image
 import numpy as np
 import binascii
+#this script can both encode text into a bmp file using LSB steganograpy on 1 bit, and decode text encoded in the same manner
 
 #encodes message into selected inputfile, starting from left bottom corner and in reverse 
 #RGB order (same order that bmp orders the bytes)
